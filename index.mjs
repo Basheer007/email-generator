@@ -7,8 +7,8 @@ const app = express();
 let client = new postmark.ServerClient("b61b8e58-aa60-4aa4-9d35-bf409d98a9d3");
 
 client.sendEmail({
-  From: "baug1947@gmail.com",
-  To: "baug1947@gmail.com",
+  From: " lonap73345@easipro.com",
+  To: " lonap73345@easipro.com",
   Subject: "Hello from Postmark",
   HtmlBody: "<strong>Hello</strong> dear Postmark user.",
   TextBody: "Hello from Postmark!",
