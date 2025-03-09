@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.mjs",
     "build": "npm install",
-    "dev": "nodemon server.js"
+    "dev": "nodemon index.mjs"
   },
   "keywords": [],
   "author": "Basheer ahamed",
